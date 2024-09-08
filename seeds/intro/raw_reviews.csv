@@ -1,0 +1,4 @@
+listing_id,date,reviewer_name,comments,sentiment
+1,"2024-01-01 11:11:11",Jack,"white houseis good",happy
+2,"2024-01-01 11:11:11",Niall,"red flat is good",joy
+3,"2024-01-01 11:11:11",Adam,"green flat is good",happy
