@@ -1,4 +1,0 @@
-id,listing_url,name,room_type,minimum_nights,host_id,price,created_at,updated_at
-1,"some url","white house",house,1,100,$120,"2024-01-01 11:11:11","2024-01-01 11:11:11"
-2,"some url2","red flat",flat,1,101,$110,"2024-01-01 11:11:11","2024-01-01 11:11:11"
-3,"some url3","green flat",flat,1,102,$123,"2024-01-01 11:11:11","2024-01-01 11:11:11"
