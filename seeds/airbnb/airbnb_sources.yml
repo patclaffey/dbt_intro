@@ -1,0 +1,12 @@
+sources:
+  - name: airbnb
+    schema: source
+    tables:
+      - name: hosts_source
+        identifier: hosts
+      - name: listings_source
+        identifier: listings
+      - name: reviews_part1_source
+        identifier: reviews_part1
+      - name: reviews_part2_source
+        identifier: reviews_part2
