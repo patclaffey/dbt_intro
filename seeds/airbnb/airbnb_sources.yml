@@ -1,6 +1,5 @@
 sources:
   - name: airbnb
-    schema: source
     tables:
       - name: hosts_source
         identifier: hosts
