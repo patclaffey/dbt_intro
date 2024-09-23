@@ -1,5 +1,5 @@
 sources:
-  - name: airbnb
+  - name: dev_source
     tables:
       - name: hosts_source
         identifier: hosts
