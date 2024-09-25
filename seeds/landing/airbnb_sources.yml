@@ -1,0 +1,12 @@
+sources:
+  - name: airbnb
+    schema: claffey_landing
+    tables:
+      - name: hosts
+        identifier: hosts_seed
+      - name: listings
+        identifier: listings_seed
+      - name: reviews_part1
+        identifier: reviews_part1_seed
+      - name: reviews_part2
+        identifier: reviews_part2_seed
