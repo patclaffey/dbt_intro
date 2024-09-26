@@ -4,9 +4,65 @@ sources:
     tables:
       - name: hosts
         identifier: hosts_seed
+        description: source data file, airbnb host data for Berlin, Germany
+        columns:
+          - name: id
+            description: host unique identifier
+          - name: name
+            description: host name
+          - name: is_superhost
+            description: is this host a superhost, true or false?
+          - name: created_at
+            description: host created at timestamp
+          - name: updated_at
+            description: host updated at timestamp
       - name: listings
         identifier: listings_seed
+        description: source data file, airbnb listing data for Berlin, Germany
+        columns:
+          - name: id
+            description: listing unique identifier
+          - name: listing_url
+            description: listing url
+          - name: name
+            description: listing name
+          - name: room_type
+            description: room type of listing
+          - name: minimum_nights
+            description: minimum nights of listing
+          - name: host_id
+            description: host id of this listing
+          - name: price
+            description: price per night
+          - name: created_at
+            description: listing created at timestamp
+          - name: updated_at
+            description: listing updated at timestamp
       - name: reviews_part1
         identifier: reviews_part1_seed
+        description: source data file, airbnb customer reviews for Berlin, Germany.  File split in two parts to work around git file size limit of 100Mb
+        columns:
+          - name: listing_id
+            description: listing unique identifier
+          - name: date
+            description: review date
+          - name: reviewer_name
+            description: name of reviewer
+          - name: comments
+            description: review comments
+          - name: sentiment
+            description: review sentiment
       - name: reviews_part2
         identifier: reviews_part2_seed
+        description: source data file, airbnb customer reviews for Berlin, Germany.  File split in two parts to work around git file size limit of 100Mb
+        columns:
+          - name: listing_id
+            description: listing unique identifier
+          - name: date
+            description: review date
+          - name: reviewer_name
+            description: name of reviewer
+          - name: comments
+            description: review comments
+          - name: sentiment
+            description: review sentiment
