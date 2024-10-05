@@ -3,7 +3,7 @@
 Setting up a full dbt environment or dbt centred data stack, from scratch is tough - hence the rough guide.
 Dbt is not a stand-alone product that works on its own.
 Dbt is best thought of as the core software component at the centre of a dbt software data stack - dbt is like the quarterback in American football where the football team is the software data stack.
-Another-words to work with dbt we need to install dbt and its dependencies - these dependencies are like the other football team members on whose success our dbt quarterback depends.
+Another-words to work with dbt, we need to install dbt and its dependencies - these dependencies are like the other football team members on whose success our dbt quarterback depends.
 We have to build our dbt environment or dbt data stack before we can experiment with dbt itself - this project uses Docker as the dbt stack build tool.
 
 The project focuses on building the dbt data stack using open source software.
